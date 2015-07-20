@@ -21,11 +21,11 @@ REVIVAL_BRAIN_LIFE -1
 ### RENAMING ###
 
 #Uncomment to allow cyborgs to rename themselves at roundstart.  Has no effect on roboticists renaming cyborgs the normal way.
-#RENAME_CYBORG
+RENAME_CYBORG
 
 ### OOC DURING ROUND ###
 #Comment this out if you want OOC to be automatically disabled during the round, it will be enabled during the lobby and after the round end results.
-OOC_DURING_ROUND
+#OOC_DURING_ROUND
 
 ### EMOJI ###
 #Comment this out if you want to disable emojis
@@ -80,14 +80,14 @@ ALERT_DELTA The station's self-destruct mechanism has been engaged. All crew are
 PROBABILITY TRAITOR 5
 PROBABILITY TRAITORCHAN 4
 PROBABILITY DOUBLE_AGENTS 3
-PROBABILITY NUCLEAR 2
-PROBABILITY REVOLUTION 2
-PROBABILITY GANG 0
+PROBABILITY NUCLEAR 4
+PROBABILITY REVOLUTION 3
+PROBABILITY GANG 2
 PROBABILITY CULT 2
 PROBABILITY CHANGELING 2
 PROBABILITY WIZARD 4
-PROBABILITY MALFUNCTION 1
-PROBABILITY BLOB 2
+PROBABILITY MALFUNCTION 3
+PROBABILITY BLOB 3
 PROBABILITY MONKEY 1
 PROBABILITY METEOR 0
 PROBABILITY EXTENDED 0
@@ -118,7 +118,7 @@ SECURITY_SCALING_COEFF 8
 
 # The number of objectives traitors get.
 # Not including escaping/hijacking.
-TRAITOR_OBJECTIVES_AMOUNT 2
+TRAITOR_OBJECTIVES_AMOUNT 4
 
 ## Uncomment to prohibit jobs that start with loyalty
 ## implants from being most antagonists.
@@ -134,7 +134,7 @@ TRAITOR_OBJECTIVES_AMOUNT 2
 ALLOW_LATEJOIN_ANTAGONISTS
 
 ## Uncomment to allow players to see the set odds of different rounds in secret/random in the get server revision screen. This will NOT tell the current roundtype.
-#SHOW_GAME_TYPE_ODDS
+SHOW_GAME_TYPE_ODDS
 
 ### RANDOM EVENTS ###
 
@@ -202,11 +202,11 @@ DEFAULT_LAWS 1
 ### SILICON LAW MAX AMOUNT ###
 ## The maximum number of laws a silicon can have
 ## Attempting to upload laws past this point will fail unless the AI is reset
-SILICON_MAX_LAW_AMOUNT 12
+SILICON_MAX_LAW_AMOUNT 18
 
 ## Uncoment to give players the choice of their species before they join the game
-#JOIN_WITH_MUTANT_RACE
+JOIN_WITH_MUTANT_RACE
 
 ## Uncomment to allow certain species to have custom colors
 
-#MUTANT_COLORS
+MUTANT_COLORS
